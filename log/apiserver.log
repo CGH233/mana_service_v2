@@ -1,0 +1,97 @@
+{"level":"ERROR","timestamp":"2019-01-25 18:26:00.859","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"dial tcp 127.0.0.1:3306: connect: connection refused"}}
+{"level":"ERROR","timestamp":"2019-01-25 18:26:00.860","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"dial tcp 127.0.0.1:3306: connect: connection refused"}}
+{"level":"INFO","timestamp":"2019-01-25 18:26:00.860","file":"apiserver/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-01-25 18:26:00.864","file":"apiserver/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2019-01-27 18:44:56.930","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"dial tcp 0.0.0.0:3306: connect: connection refused"}}
+{"level":"INFO","timestamp":"2019-01-27 18:44:56.933","file":"handler/handler.go:42","msg":"The user was not found.","data":{"X-Request-Id":"8478cfe5-b01f-4ac5-9d1b-ec6a454eb7d5","cause":"sql: database is closed"}}
+{"level":"INFO","timestamp":"2019-01-27 18:44:56.933","file":"middleware/logging.go:84","msg":"673µs         | 192.0.2.1    | POST /login | {code: 20102, message: The user was not found.: sql: database is closed}"}
+{"level":"INFO","timestamp":"2019-01-27 18:44:56.933","file":"middleware/logging.go:84","msg":"94µs          | 192.0.2.1    | POST /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:44:56.934","file":"middleware/logging.go:84","msg":"64µs          | 192.0.2.1    | GET /v1/user/1548585896 | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:44:56.934","file":"middleware/logging.go:84","msg":"50µs          | 192.0.2.1    | PUT /v1/user/0 | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:44:56.934","file":"middleware/logging.go:84","msg":"49µs          | 192.0.2.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:44:56.934","file":"middleware/logging.go:84","msg":"54µs          | 192.0.2.1    | DELETE /v1/user/0 | {code: 20103, message: The token was invalid.}"}
+{"level":"ERROR","timestamp":"2019-01-27 18:47:42.165","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"driver: bad connection"}}
+{"level":"INFO","timestamp":"2019-01-27 18:47:42.167","file":"handler/handler.go:42","msg":"The user was not found.","data":{"X-Request-Id":"3d462ea2-dd0e-45bc-849f-0b525eb2ab7b","cause":"sql: database is closed"}}
+{"level":"INFO","timestamp":"2019-01-27 18:47:42.167","file":"middleware/logging.go:84","msg":"867µs         | 192.0.2.1    | POST /login | {code: 20102, message: The user was not found.: sql: database is closed}"}
+{"level":"INFO","timestamp":"2019-01-27 18:47:42.168","file":"middleware/logging.go:84","msg":"556µs         | 192.0.2.1    | POST /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:47:42.168","file":"middleware/logging.go:84","msg":"80µs          | 192.0.2.1    | GET /v1/user/1548586062 | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:47:42.168","file":"middleware/logging.go:84","msg":"48µs          | 192.0.2.1    | PUT /v1/user/0 | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:47:42.168","file":"middleware/logging.go:84","msg":"55µs          | 192.0.2.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:47:42.168","file":"middleware/logging.go:84","msg":"63µs          | 192.0.2.1    | DELETE /v1/user/0 | {code: 20103, message: The token was invalid.}"}
+{"level":"ERROR","timestamp":"2019-01-27 18:49:37.758","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user 'root'@'172.17.0.1' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-01-27 18:49:37.760","file":"handler/handler.go:42","msg":"The user was not found.","data":{"X-Request-Id":"82f57c82-ab42-403d-bbfe-c5185f43f785","cause":"sql: database is closed"}}
+{"level":"INFO","timestamp":"2019-01-27 18:49:37.760","file":"middleware/logging.go:84","msg":"970µs         | 192.0.2.1    | POST /login | {code: 20102, message: The user was not found.: sql: database is closed}"}
+{"level":"INFO","timestamp":"2019-01-27 18:49:37.760","file":"middleware/logging.go:84","msg":"164µs         | 192.0.2.1    | POST /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:49:37.761","file":"middleware/logging.go:84","msg":"49µs          | 192.0.2.1    | GET /v1/user/1548586177 | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:49:37.761","file":"middleware/logging.go:84","msg":"41µs          | 192.0.2.1    | PUT /v1/user/0 | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:49:37.761","file":"middleware/logging.go:84","msg":"43µs          | 192.0.2.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:49:37.761","file":"middleware/logging.go:84","msg":"433µs         | 192.0.2.1    | DELETE /v1/user/0 | {code: 20103, message: The token was invalid.}"}
+{"level":"ERROR","timestamp":"2019-01-27 18:55:36.809","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user 'root'@'172.17.0.1' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-01-27 18:55:36.810","file":"handler/handler.go:42","msg":"The user was not found.","data":{"X-Request-Id":"a529b9dc-7407-42a1-ab53-3bd0fdb30778","cause":"sql: database is closed"}}
+{"level":"INFO","timestamp":"2019-01-27 18:55:36.811","file":"middleware/logging.go:84","msg":"783µs         | 192.0.2.1    | POST /login | {code: 20102, message: The user was not found.: sql: database is closed}"}
+{"level":"INFO","timestamp":"2019-01-27 18:55:36.811","file":"middleware/logging.go:84","msg":"83µs          | 192.0.2.1    | POST /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:55:36.811","file":"middleware/logging.go:84","msg":"48µs          | 192.0.2.1    | GET /v1/user/1548586536 | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:55:36.811","file":"middleware/logging.go:84","msg":"47µs          | 192.0.2.1    | PUT /v1/user/0 | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:55:36.811","file":"middleware/logging.go:84","msg":"52µs          | 192.0.2.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:55:36.811","file":"middleware/logging.go:84","msg":"40µs          | 192.0.2.1    | DELETE /v1/user/0 | {code: 20103, message: The token was invalid.}"}
+{"level":"ERROR","timestamp":"2019-01-27 18:56:12.992","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user 'root'@'172.17.0.1' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-01-27 18:56:12.993","file":"handler/handler.go:42","msg":"The user was not found.","data":{"X-Request-Id":"69b146d5-7af5-4963-a2ef-0e5c6a26d8dd","cause":"sql: database is closed"}}
+{"level":"INFO","timestamp":"2019-01-27 18:56:12.994","file":"middleware/logging.go:84","msg":"771µs         | 192.0.2.1    | POST /login | {code: 20102, message: The user was not found.: sql: database is closed}"}
+{"level":"INFO","timestamp":"2019-01-27 18:56:12.994","file":"middleware/logging.go:84","msg":"147µs         | 192.0.2.1    | POST /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:56:12.994","file":"middleware/logging.go:84","msg":"90µs          | 192.0.2.1    | GET /v1/user/1548586572 | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:56:12.994","file":"middleware/logging.go:84","msg":"79µs          | 192.0.2.1    | PUT /v1/user/0 | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:56:12.995","file":"middleware/logging.go:84","msg":"84µs          | 192.0.2.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:56:12.995","file":"middleware/logging.go:84","msg":"42µs          | 192.0.2.1    | DELETE /v1/user/0 | {code: 20103, message: The token was invalid.}"}
+{"level":"ERROR","timestamp":"2019-01-27 18:59:59.835","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user 'root'@'172.17.0.1' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-01-27 18:59:59.836","file":"handler/handler.go:42","msg":"The user was not found.","data":{"X-Request-Id":"c20a6738-97ae-4e8f-8d42-8f031f43bad7","cause":"sql: database is closed"}}
+{"level":"INFO","timestamp":"2019-01-27 18:59:59.837","file":"middleware/logging.go:84","msg":"1.135ms       | 192.0.2.1    | POST /login | {code: 20102, message: The user was not found.: sql: database is closed}"}
+{"level":"INFO","timestamp":"2019-01-27 18:59:59.837","file":"middleware/logging.go:84","msg":"91µs          | 192.0.2.1    | POST /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:59:59.837","file":"middleware/logging.go:84","msg":"93µs          | 192.0.2.1    | GET /v1/user/1548586799 | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:59:59.837","file":"middleware/logging.go:84","msg":"93µs          | 192.0.2.1    | PUT /v1/user/0 | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:59:59.837","file":"middleware/logging.go:84","msg":"68µs          | 192.0.2.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 18:59:59.838","file":"middleware/logging.go:84","msg":"110µs         | 192.0.2.1    | DELETE /v1/user/0 | {code: 20103, message: The token was invalid.}"}
+{"level":"ERROR","timestamp":"2019-01-27 19:02:43.822","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user 'root'@'172.17.0.1' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-01-27 19:02:43.831","file":"handler/handler.go:42","msg":"The user was not found.","data":{"X-Request-Id":"6f32ceab-733e-44b7-8f52-c6a7da064a0e","cause":"sql: database is closed"}}
+{"level":"INFO","timestamp":"2019-01-27 19:02:43.831","file":"middleware/logging.go:84","msg":"691µs         | 192.0.2.1    | POST /login | {code: 20102, message: The user was not found.: sql: database is closed}"}
+{"level":"INFO","timestamp":"2019-01-27 19:02:43.832","file":"middleware/logging.go:84","msg":"73µs          | 192.0.2.1    | POST /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 19:02:43.832","file":"middleware/logging.go:84","msg":"53µs          | 192.0.2.1    | GET /v1/user/1548586963 | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 19:02:43.832","file":"middleware/logging.go:84","msg":"48µs          | 192.0.2.1    | PUT /v1/user/0 | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 19:02:43.832","file":"middleware/logging.go:84","msg":"35µs          | 192.0.2.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-01-27 19:02:43.832","file":"middleware/logging.go:84","msg":"37µs          | 192.0.2.1    | DELETE /v1/user/0 | {code: 20103, message: The token was invalid.}"}
+{"level":"ERROR","timestamp":"2019-01-27 19:03:46.704","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user 'root'@'172.17.0.1' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-01-27 19:03:46.704","file":"Go-Web-Application-Template/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-01-27 19:03:46.706","file":"Go-Web-Application-Template/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-01-27 19:07:14.275","file":"config/config.go:74","msg":"Config file changed: /Users/zindex/Desktop/Go-Web-Application-Template/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-01-27 19:07:14.440","file":"config/config.go:74","msg":"Config file changed: /Users/zindex/Desktop/Go-Web-Application-Template/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-01-27 19:07:20.278","file":"middleware/logging.go:84","msg":"75.166ms      | 192.0.2.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-01-27 19:07:20.279","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":"adb1be66-8abf-47f1-a8fd-06ab51b124fa"}}
+{"level":"INFO","timestamp":"2019-01-27 19:07:20.353","file":"middleware/logging.go:84","msg":"73.809ms      | 192.0.2.1    | POST /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-01-27 19:07:20.358","file":"middleware/logging.go:84","msg":"2.743ms       | 192.0.2.1    | GET /v1/user/1548587240 | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-01-27 19:07:20.359","file":"user/update.go:18","msg":"Update function called.","data":{"X-Request-Id":"e9acfc84-c98f-49fb-b469-1e0eca82e586"}}
+{"level":"INFO","timestamp":"2019-01-27 19:07:20.438","file":"handler/handler.go:42","msg":"Database error.","data":{"X-Request-Id":"e9acfc84-c98f-49fb-b469-1e0eca82e586","cause":"Error 1292: Incorrect datetime value: '0000-00-00' for column 'createdAt' at row 1"}}
+{"level":"INFO","timestamp":"2019-01-27 19:07:20.438","file":"middleware/logging.go:84","msg":"79.125ms      | 192.0.2.1    | PUT /v1/user/2 | {code: 20002, message: Database error.: Error 1292: Incorrect datetime value: '0000-00-00' for column 'createdAt' at row 1}"}
+{"level":"INFO","timestamp":"2019-01-27 19:07:20.444","file":"middleware/logging.go:84","msg":"5.625ms       | 192.0.2.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-01-27 19:07:20.447","file":"middleware/logging.go:84","msg":"3.146ms       | 192.0.2.1    | DELETE /v1/user/2 | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-01-27 19:47:23.159","file":"middleware/logging.go:84","msg":"71.927ms      | 192.0.2.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-01-27 19:47:23.165","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":"e932896e-e0c7-4b95-9581-cde4e54c263a"}}
+{"level":"INFO","timestamp":"2019-01-27 19:47:23.238","file":"middleware/logging.go:84","msg":"73.118ms      | 192.0.2.1    | POST /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-01-27 19:47:23.247","file":"middleware/logging.go:84","msg":"4.48ms        | 192.0.2.1    | GET /v1/user/1548589643 | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-01-27 19:47:23.248","file":"user/update.go:22","msg":"Update function called.","data":{"X-Request-Id":"b09922cf-c345-4b98-abd5-8431d42fb3c6"}}
+{"level":"INFO","timestamp":"2019-01-27 19:47:23.324","file":"middleware/logging.go:84","msg":"76.464ms      | 192.0.2.1    | PUT /v1/user/3 | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-01-27 19:47:23.337","file":"middleware/logging.go:84","msg":"12.944ms      | 192.0.2.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-01-27 19:47:23.342","file":"middleware/logging.go:84","msg":"4.604ms       | 192.0.2.1    | DELETE /v1/user/3 | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-01-27 19:47:35.488","file":"Go-Web-Application-Template/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-01-27 19:47:35.490","file":"Go-Web-Application-Template/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2019-02-15 00:25:53.636","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1049: Unknown database 'db_apiserver'"}}
+{"level":"INFO","timestamp":"2019-02-15 00:53:06.841","file":"apiserver/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-02-15 00:53:06.841","file":"apiserver/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-02-15 00:53:07.844","file":"apiserver/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-02-15 00:54:05.802","file":"middleware/logging.go:84","msg":"82.1ms        | ::1          | POST /login | {code: 0, message: OK}"}
+{"level":"ERROR","timestamp":"2019-04-25 15:22:00.267","file":"model/init.go:35","msg":"Database connection failed.","data":{"error":"error parsing uri (mongoadmin:secret@127.0.0.1:27017): scheme must be \"mongodb\" or \"mongodb+srv\""}}
+{"level":"INFO","timestamp":"2019-04-25 15:22:30.643","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 15:22:30.644","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 15:23:07.728","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 15:23:07.729","file":"mana_service_v2/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-25 15:23:08.735","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 15:28:54.038","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 15:28:54.039","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
