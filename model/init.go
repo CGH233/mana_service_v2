@@ -8,12 +8,14 @@ import (
 	"github.com/lexkong/log"
 	"github.com/spf13/viper"
 
+	"github.com/go-redis/redis"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
 type Database struct {
-	Self *mongo.Client
+	Self  *mongo.Client
+	Redis *redis.Client
 }
 
 var DB *Database
@@ -52,8 +54,17 @@ func GetSelfDB() *mongo.Client {
 
 func (db *Database) Init() {
 	DB = &Database{
-		Self: GetSelfDB(),
+		Self:  GetSelfDB(),
+		Redis: GetRedis(),
 	}
+}
+
+func GetRedis() *redis.Client {
+	return redis.NewClient(&redis.Options{
+		Addr:     "localhost:6379",
+		Password: "", // no password set
+		DB:       0,  // use default DB
+	})
 }
 
 func (db *Database) Close() {

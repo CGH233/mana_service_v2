@@ -46,25 +46,18 @@
   version = "v1.2.4"
 
 [[projects]]
-  name = "github.com/go-playground/locales"
+  name = "github.com/go-redis/redis"
   packages = [
     ".",
-    "currency"
+    "internal",
+    "internal/consistenthash",
+    "internal/hashtag",
+    "internal/pool",
+    "internal/proto",
+    "internal/util"
   ]
-  revision = "f63010822830b6fe52288ee52d5a1151088ce039"
-  version = "v0.12.1"
-
-[[projects]]
-  name = "github.com/go-playground/universal-translator"
-  packages = ["."]
-  revision = "b32fa301c9fe55953584134cb6853a13c87ec0a1"
-  version = "v0.16.0"
-
-[[projects]]
-  name = "github.com/go-sql-driver/mysql"
-  packages = ["."]
-  revision = "72cd26f257d44c1114970e19afddcd812016007e"
-  version = "v1.4.1"
+  revision = "d22fde8721cc915a55aeb6b00944a76a92bfeb6e"
+  version = "v6.15.2"
 
 [[projects]]
   name = "github.com/go-stack/stack"
@@ -103,10 +96,7 @@
 
 [[projects]]
   name = "github.com/jinzhu/gorm"
-  packages = [
-    ".",
-    "dialects/mysql"
-  ]
+  packages = ["."]
   revision = "e3987fd4b803c16497aa4dfd2e75db7a6a061a4e"
   version = "v1.9.4"
 
@@ -121,12 +111,6 @@
   packages = ["."]
   revision = "0ff49de124c6f76f8494e194af75bde0f1a49a29"
   version = "v1.1.6"
-
-[[projects]]
-  name = "github.com/leodido/go-urn"
-  packages = ["."]
-  revision = "70078a794e8ea4b497ba7c19a78cd60f90ccf0f4"
-  version = "v1.1.0"
 
 [[projects]]
   branch = "master"
@@ -167,26 +151,6 @@
   packages = ["."]
   revision = "4b7aa43c6742a2c18fdef89dd197aaae7dac7ccd"
   version = "1.0.1"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/asynccnu/mana_service_v2"
-  packages = [
-    "config",
-    "handler",
-    "handler/sd",
-    "handler/user",
-    "model",
-    "pkg/auth",
-    "pkg/constvar",
-    "pkg/errno",
-    "pkg/token",
-    "router",
-    "router/middleware",
-    "service",
-    "util"
-  ]
-  revision = "881fabc95b13882614d7277b7f3e1584850ca0da"
 
 [[projects]]
   name = "github.com/pelletier/go-toml"
@@ -351,22 +315,10 @@
   version = "v0.3.1"
 
 [[projects]]
-  name = "google.golang.org/appengine"
-  packages = ["cloudsql"]
-  revision = "54a98f90d1c46b7731eb8fb305d2a321c30ef610"
-  version = "v1.5.0"
-
-[[projects]]
   name = "gopkg.in/go-playground/validator.v8"
   packages = ["."]
   revision = "5f1438d3fca68893a817e4a66806cea46a9e4ebf"
   version = "v8.18.2"
-
-[[projects]]
-  name = "gopkg.in/go-playground/validator.v9"
-  packages = ["."]
-  revision = "46b4b1e301c24cac870ffcb4ba5c8a703d1ef475"
-  version = "v9.28.0"
 
 [[projects]]
   name = "gopkg.in/yaml.v2"
@@ -377,6 +329,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "9df7cb47c3d0abaf1cc2aa7191681223213d756c46ed99966c6f510dde57e435"
+  inputs-digest = "4531d7ff9927a897b9b5199aa8cc2a7352df98fd39cf80a24fb95dedecc04b47"
   solver-name = "gps-cdcl"
   solver-version = 1

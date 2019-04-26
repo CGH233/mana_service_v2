@@ -95,3 +95,87 @@
 {"level":"INFO","timestamp":"2019-04-25 15:23:08.735","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
 {"level":"INFO","timestamp":"2019-04-25 15:28:54.038","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
 {"level":"INFO","timestamp":"2019-04-25 15:28:54.039","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 15:47:36.643","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 15:47:36.644","file":"mana_service_v2/main.go:60","msg":"listen tcp :8080: bind: address already in use"}
+{"level":"INFO","timestamp":"2019-04-25 15:47:36.645","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 15:47:48.109","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 15:47:48.110","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 15:56:19.300","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 15:56:19.301","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 16:57:14.665","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 16:57:14.666","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 19:08:35.645","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 19:08:35.647","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 19:08:39.139","file":"handler/handler.go:40","msg":"document is nil","data":{"X-Request-Id":"c4a99067-c139-4ba5-9027-f747488b718b","cause":"document is nil"}}
+{"level":"INFO","timestamp":"2019-04-25 19:13:46.421","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 19:13:46.422","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 19:20:39.717","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 19:20:39.718","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 19:21:37.360","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 19:21:37.361","file":"mana_service_v2/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-25 19:21:38.367","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 19:23:35.985","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 19:23:35.986","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 19:35:24.658","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 19:35:24.659","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 19:40:03.055","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 19:40:03.056","file":"mana_service_v2/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-25 19:40:04.058","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 19:46:19.197","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 19:46:19.198","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 19:50:13.700","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 19:50:13.701","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 19:52:12.166","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 19:52:12.167","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 20:20:18.249","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 20:20:18.251","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 20:20:59.793","file":"config/update.go:14","msg":"iOS Config Update function called.","data":{"X-Request-Id":"23d33711-047f-4429-85d5-738f72a26a6f"}}
+{"level":"INFO","timestamp":"2019-04-25 20:20:59.819","file":"handler/handler.go:40","msg":"multiple write errors: [{write errors: [{Modifiers operate on fields but we found type binData instead. For example: {$mod: {\u003cfield\u003e: ...}} not {$set: BinData(0, 8A0300000263616C656E64617255726C003900000068747470733A2F2F6F636363336576336C2E716E73736C2E636F6D2F63616C656E6461722F63616C656E6461725F323031...)}}]}, {\u003cnil\u003e}]","data":{"X-Request-Id":"23d33711-047f-4429-85d5-738f72a26a6f","cause":"multiple write errors: [{write errors: [{Modifiers operate on fields but we found type binData instead. For example: {$mod: {\u003cfield\u003e: ...}} not {$set: BinData(0, 8A0300000263616C656E64617255726C003900000068747470733A2F2F6F636363336576336C2E716E73736C2E636F6D2F63616C656E6461722F63616C656E6461725F323031...)}}]}, {\u003cnil\u003e}]"}}
+{"level":"INFO","timestamp":"2019-04-25 20:26:35.144","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 20:26:35.145","file":"mana_service_v2/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-25 20:26:36.147","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 20:26:42.126","file":"config/update.go:14","msg":"iOS Config Update function called.","data":{"X-Request-Id":"ecb88ae6-64bb-4288-966b-c122bd0472f4"}}
+{"level":"INFO","timestamp":"2019-04-25 20:26:42.127","file":"handler/handler.go:40","msg":"update document must contain key beginning with '$'","data":{"X-Request-Id":"ecb88ae6-64bb-4288-966b-c122bd0472f4","cause":"update document must contain key beginning with '$'"}}
+{"level":"INFO","timestamp":"2019-04-25 20:27:28.777","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-25 20:27:28.777","file":"mana_service_v2/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-25 20:27:29.782","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-25 20:27:32.167","file":"config/update.go:14","msg":"iOS Config Update function called.","data":{"X-Request-Id":"f7cb64a8-75d8-4efe-a21b-3289e6de92ee"}}
+{"level":"INFO","timestamp":"2019-04-25 20:27:43.984","file":"config/update.go:14","msg":"iOS Config Update function called.","data":{"X-Request-Id":"d5c12ddb-fda5-4bc7-99e7-03e0fdaa0ab7"}}
+{"level":"INFO","timestamp":"2019-04-25 20:27:58.459","file":"config/update.go:14","msg":"iOS Config Update function called.","data":{"X-Request-Id":"eba95117-3605-4451-aa89-02c19dfb804b"}}
+{"level":"INFO","timestamp":"2019-04-25 20:28:03.554","file":"config/update.go:14","msg":"iOS Config Update function called.","data":{"X-Request-Id":"3544bb66-83b8-4ea4-bf2f-aabacc72e974"}}
+{"level":"INFO","timestamp":"2019-04-26 15:57:55.894","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-26 15:57:55.895","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-26 15:58:03.318","file":"handler/handler.go:40","msg":"redis: nil","data":{"X-Request-Id":"903138e4-9ff5-4b85-b5c9-bcdb6768eb0c","cause":"redis: nil"}}
+{"level":"INFO","timestamp":"2019-04-26 15:59:00.632","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-26 15:59:00.633","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-26 16:01:06.385","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-26 16:01:06.386","file":"mana_service_v2/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-26 16:01:07.392","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-26 16:01:28.656","file":"config/update.go:17","msg":"iOS Config Update function called.","data":{"X-Request-Id":"55209e10-d95e-4b14-a654-4e19405302ae"}}
+{"level":"INFO","timestamp":"2019-04-26 16:02:41.558","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-26 16:02:41.559","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-26 16:03:37.655","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-26 16:03:37.656","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-26 16:03:53.867","file":"config/update.go:14","msg":"iOS Config Update function called.","data":{"X-Request-Id":"1c2d5e21-5be5-4c89-9d2e-be938bf47379"}}
+{"level":"INFO","timestamp":"2019-04-26 16:04:42.021","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-26 16:04:42.022","file":"mana_service_v2/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-26 16:04:43.025","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-26 16:04:49.639","file":"config/update.go:17","msg":"iOS Config Update function called.","data":{"X-Request-Id":"9fcd401b-8dde-4824-bcb7-2128991d08b7"}}
+{"level":"INFO","timestamp":"2019-04-26 16:15:03.535","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-26 16:15:03.536","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-26 16:15:08.666","file":"banner/list.go:21","msg":"Redis error, fallback banner config from mongo"}
+{"level":"INFO","timestamp":"2019-04-26 16:15:34.201","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-26 16:15:34.202","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-26 16:15:36.269","file":"banner/list.go:21","msg":"Redis error, fallback banner config from mongo"}
+{"level":"INFO","timestamp":"2019-04-26 16:15:37.612","file":"banner/list.go:21","msg":"Redis error, fallback banner config from mongo"}
+{"level":"INFO","timestamp":"2019-04-26 16:15:51.863","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-26 16:15:51.864","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-26 16:15:53.755","file":"banner/list.go:21","msg":"Redis error, fallback banner config from mongo"}
+{"level":"INFO","timestamp":"2019-04-26 16:20:14.204","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-26 16:20:14.205","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-26 16:21:54.095","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-26 16:21:54.096","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-26 16:21:57.963","file":"banner/update.go:17","msg":"Banner Config Update function called.","data":{"X-Request-Id":"c7b2a0cf-629d-40eb-9603-aeb25923a4be"}}
+{"level":"INFO","timestamp":"2019-04-26 16:22:03.801","file":"banner/update.go:17","msg":"Banner Config Update function called.","data":{"X-Request-Id":"76b585b1-fbcf-42a8-896e-2592942c7368"}}
+{"level":"INFO","timestamp":"2019-04-26 16:22:19.049","file":"banner/update.go:17","msg":"Banner Config Update function called.","data":{"X-Request-Id":"3187075b-6334-4880-9a53-991d94058794"}}
+{"level":"INFO","timestamp":"2019-04-26 16:22:35.038","file":"banner/update.go:17","msg":"Banner Config Update function called.","data":{"X-Request-Id":"037f3f31-a6ea-4c6b-8736-c9177a108f2d"}}

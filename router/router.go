@@ -4,7 +4,10 @@ import (
 	"net/http"
 
 	"github.com/asynccnu/mana_service_v2/handler/apartment"
+	"github.com/asynccnu/mana_service_v2/handler/ios/banner"
+	"github.com/asynccnu/mana_service_v2/handler/ios/config"
 	"github.com/asynccnu/mana_service_v2/handler/sd"
+	"github.com/asynccnu/mana_service_v2/handler/site"
 	"github.com/asynccnu/mana_service_v2/router/middleware"
 
 	"github.com/gin-gonic/gin"
@@ -23,25 +26,16 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 		c.String(http.StatusNotFound, "The incorrect API route.")
 	})
 
-	// api for authentication functionalities
-	// g.POST("/login", user.Login)
-
-	// // The user handlers, requiring authentication
-	// u := g.Group("/v1/user")
-	// u.Use(middleware.AuthMiddleware())
-	// {
-	// 	u.POST("", user.Create)
-	// 	u.DELETE("/:id", user.Delete)
-	// 	u.PUT("/:id", user.Update)
-	// 	u.GET("", user.List)
-	// 	u.GET("/:username", user.Get)
-	// }
-
 	// The user handlers, requiring authentication
-	u := g.Group("/v1")
+	u := g.Group("/api")
 	// u.Use(middleware.AuthMiddleware())
 	{
 		u.GET("/apartment", apartment.Get)
+		u.GET("/site", site.Get)
+		u.GET("/ios/config", config.Get)
+		u.PUT("ios/config", config.Update)
+		u.GET("/ios/banner", banner.Get)
+		u.PUT("ios/banner", banner.Update)
 	}
 
 	// The health check handlers
