@@ -8,7 +8,7 @@
 
 需要本地 Redis + Mongo，都是默认端口。Mongo admin 的账号：密码 mongoadmin:secret。
 
-可以用 [docker 快速起一个 Mongo](https://hub.docker.com/_/mongo)。
+可以用 [docker 快速起一个 Mongo](https://hub.docker.com/_/mongo)。注意要创建 admin 账号。
 
 然后在目录下 `make && ./main` 起服务
 
@@ -18,6 +18,7 @@
 - [x] Banner（两端公用）
 - [x] 部门信息
 - [x] 常用网站
+- [x] 消息通知（出现在 App 里的临时 Notification）
 - [ ] 校历
 - [ ] 安卓闪屏
 - [ ] 安卓检查更新

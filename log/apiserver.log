@@ -243,3 +243,42 @@
 {"level":"INFO","timestamp":"2019-05-01 15:39:07.335","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
 {"level":"INFO","timestamp":"2019-05-01 15:39:07.336","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
 {"level":"INFO","timestamp":"2019-05-01 15:39:09.794","file":"handler/handler.go:40","msg":"The token was invalid.","data":{"X-Request-Id":"f02f2cec-74a1-4b13-a83a-57c3715a9f71","cause":"illegal base64 data at input byte 16"}}
+{"level":"INFO","timestamp":"2019-05-01 16:24:38.034","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:24:38.228","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:24:38.422","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:24:38.647","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:25:29.052","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:25:44.738","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-01 16:25:44.739","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-01 16:26:02.782","file":"handler/handler.go:40","msg":"The token was invalid.","data":{"X-Request-Id":"4fca3161-ece1-4402-b776-830b30ea9cdb","cause":"illegal base64 data at input byte 16"}}
+{"level":"INFO","timestamp":"2019-05-01 16:26:05.865","file":"msg/delete.go:16","msg":"Msg delete function called.","data":{"X-Request-Id":"a5e9119f-7a72-44c6-b9c4-c25eef6ddec3"}}
+{"level":"INFO","timestamp":"2019-05-01 16:26:05.892","file":"handler/handler.go:51","msg":"(Unauthorized) command delete requires authentication","data":{"X-Request-Id":"a5e9119f-7a72-44c6-b9c4-c25eef6ddec3","cause":"(Unauthorized) command delete requires authentication"}}
+{"level":"INFO","timestamp":"2019-05-01 16:26:27.282","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:27.494","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:28.262","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:28.508","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:28.687","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:28.871","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:30.519","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:30.693","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:30.913","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:31.643","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:31.858","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:32.046","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:36.827","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:37.230","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:37.807","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:38.007","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:38.217","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:38.448","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:38.636","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:38.873","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:39.076","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:39.298","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:26:40.412","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:27:50.502","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:27:50.707","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:27:51.470","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:27:51.682","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:27:52.130","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-01 16:27:52.411","file":"config/config.go:73","msg":"Config file changed: /Users/zindex/go/src/github.com/asynccnu/mana_service_v2/conf/config.yaml"}

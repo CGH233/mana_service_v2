@@ -1,0 +1,8 @@
+language: go
+services:
+  - redis-server
+  - mongodb
+go:
+- 1.11.x
+
+script: make test
