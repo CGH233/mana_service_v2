@@ -13,6 +13,8 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
+const LIST_DEFAULT_LIMIT = 20
+
 type Database struct {
 	Self  *mongo.Client
 	Redis *redis.Client

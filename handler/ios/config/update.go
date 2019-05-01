@@ -17,7 +17,7 @@ func Update(c *gin.Context) {
 	log.Info("iOS Config Update function called.", lager.Data{"X-Request-Id": util.GetReqID(c)})
 	var r UpdateRequest
 	if err := c.Bind(&r); err != nil {
-		SendResponse(c, errno.ErrBind, nil)
+		SendBadRequest(c, errno.ErrBind, nil, err.Error())
 		return
 	}
 

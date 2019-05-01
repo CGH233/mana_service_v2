@@ -179,3 +179,67 @@
 {"level":"INFO","timestamp":"2019-04-26 16:22:03.801","file":"banner/update.go:17","msg":"Banner Config Update function called.","data":{"X-Request-Id":"76b585b1-fbcf-42a8-896e-2592942c7368"}}
 {"level":"INFO","timestamp":"2019-04-26 16:22:19.049","file":"banner/update.go:17","msg":"Banner Config Update function called.","data":{"X-Request-Id":"3187075b-6334-4880-9a53-991d94058794"}}
 {"level":"INFO","timestamp":"2019-04-26 16:22:35.038","file":"banner/update.go:17","msg":"Banner Config Update function called.","data":{"X-Request-Id":"037f3f31-a6ea-4c6b-8736-c9177a108f2d"}}
+{"level":"INFO","timestamp":"2019-04-26 18:12:33.634","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-26 18:12:33.635","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-26 18:13:01.612","file":"feedback/create.go:15","msg":"feedback create function called.","data":{"X-Request-Id":"b0c74d4d-88a4-4308-afc3-ac6372da17e1"}}
+{"level":"INFO","timestamp":"2019-04-26 18:13:01.655","file":"handler/handler.go:40","msg":"multiple write errors: [{write errors: [{Document can't have $ prefixed field names: $set}]}, {\u003cnil\u003e}]","data":{"X-Request-Id":"b0c74d4d-88a4-4308-afc3-ac6372da17e1","cause":"multiple write errors: [{write errors: [{Document can't have $ prefixed field names: $set}]}, {\u003cnil\u003e}]"}}
+{"level":"INFO","timestamp":"2019-04-26 18:13:28.105","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-26 18:13:28.106","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-26 18:15:41.666","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-26 18:15:41.667","file":"mana_service_v2/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-26 18:15:42.673","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-26 18:15:46.779","file":"feedback/create.go:15","msg":"feedback create function called.","data":{"X-Request-Id":"0753d341-95dc-466e-b6d6-f1e8d237a52d"}}
+{"level":"INFO","timestamp":"2019-04-26 18:16:03.756","file":"feedback/create.go:15","msg":"feedback create function called.","data":{"X-Request-Id":"703d79aa-16af-4140-af08-d0c8a4c10bcc"}}
+{"level":"INFO","timestamp":"2019-04-30 14:56:36.638","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-30 14:56:36.640","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-30 15:00:18.562","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-30 15:00:18.563","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-30 15:01:54.347","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-30 15:01:54.349","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-30 15:02:25.745","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-30 15:02:25.746","file":"mana_service_v2/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-30 15:02:26.747","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-30 15:03:36.045","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-30 15:03:36.046","file":"mana_service_v2/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-30 15:03:37.052","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-30 15:14:42.486","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-30 15:14:42.488","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-30 15:16:43.964","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-30 15:16:43.965","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-30 15:18:11.067","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-30 15:18:11.068","file":"mana_service_v2/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-30 15:18:12.070","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-01 11:24:56.865","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-01 11:24:56.866","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-01 11:25:59.792","file":"msg/get.go:29","msg":"Redis error, fallback msg from mongo"}
+{"level":"INFO","timestamp":"2019-05-01 11:42:21.590","file":"msg/get.go:29","msg":"Redis error, fallback msg from mongo"}
+{"level":"INFO","timestamp":"2019-05-01 11:42:21.623","file":"handler/handler.go:40","msg":"mongo: no documents in result","data":{"X-Request-Id":"032d86ef-7e68-445e-a923-57eb64dab3bc","cause":"mongo: no documents in result"}}
+{"level":"INFO","timestamp":"2019-05-01 11:59:16.344","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-01 11:59:16.345","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-01 11:59:21.919","file":"msg/get.go:29","msg":"Redis error, fallback msg from mongo"}
+{"level":"INFO","timestamp":"2019-05-01 11:59:21.945","file":"handler/handler.go:40","msg":"mongo: no documents in result","data":{"X-Request-Id":"11f1e138-616a-4827-8c08-75750ce05de8","cause":"mongo: no documents in result"}}
+{"level":"INFO","timestamp":"2019-05-01 11:59:24.157","file":"msg/get.go:29","msg":"Redis error, fallback msg from mongo"}
+{"level":"INFO","timestamp":"2019-05-01 12:01:14.215","file":"msg/create.go:18","msg":"Msg Create function called.","data":{"X-Request-Id":"9bd99f8f-9937-4bb7-ab22-41427e8680f0"}}
+{"level":"INFO","timestamp":"2019-05-01 12:01:34.431","file":"msg/create.go:18","msg":"Msg Create function called.","data":{"X-Request-Id":"07f3a851-4f8d-4f24-b4f6-c04c24381807"}}
+{"level":"INFO","timestamp":"2019-05-01 12:01:54.815","file":"msg/update.go:18","msg":"Msg Update function called.","data":{"X-Request-Id":"9b838cbd-872e-4942-857b-b74b3c61d70c"}}
+{"level":"INFO","timestamp":"2019-05-01 12:02:42.842","file":"msg/delete.go:16","msg":"Msg delete function called.","data":{"X-Request-Id":"2de71d04-9837-4557-827b-7d56d11617cd"}}
+{"level":"INFO","timestamp":"2019-05-01 12:02:52.071","file":"msg/delete.go:16","msg":"Msg delete function called.","data":{"X-Request-Id":"c6eb5fb9-1cf9-494b-9036-1348168b4ff9"}}
+{"level":"INFO","timestamp":"2019-05-01 12:03:02.649","file":"msg/delete.go:16","msg":"Msg delete function called.","data":{"X-Request-Id":"c87000a4-2334-4c59-83a0-e39bd6c41228"}}
+{"level":"INFO","timestamp":"2019-05-01 15:19:33.133","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-01 15:19:33.134","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-01 15:20:46.016","file":"msg/delete.go:16","msg":"Msg delete function called.","data":{"X-Request-Id":"55adbd22-e1a1-4099-99e9-0a4c28866277"}}
+{"level":"INFO","timestamp":"2019-05-01 15:21:04.748","file":"msg/delete.go:16","msg":"Msg delete function called.","data":{"X-Request-Id":"3b30de2e-f735-4808-9009-ddc0238acec3"}}
+{"level":"INFO","timestamp":"2019-05-01 15:21:10.590","file":"msg/delete.go:16","msg":"Msg delete function called.","data":{"X-Request-Id":"bb972fd1-4562-4a3b-8708-7c3ed1163e7e"}}
+{"level":"INFO","timestamp":"2019-05-01 15:23:19.916","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-01 15:23:19.917","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-01 15:23:32.452","file":"msg/delete.go:16","msg":"Msg delete function called.","data":{"X-Request-Id":"66eeb505-b131-40d9-a955-1414366e628e"}}
+{"level":"INFO","timestamp":"2019-05-01 15:27:41.414","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-01 15:27:41.416","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-01 15:27:44.854","file":"msg/delete.go:16","msg":"Msg delete function called.","data":{"X-Request-Id":"931f6ee3-2b53-4137-93e5-bdf21997b11c"}}
+{"level":"INFO","timestamp":"2019-05-01 15:38:00.332","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-01 15:38:00.333","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-01 15:38:03.081","file":"msg/delete.go:16","msg":"Msg delete function called.","data":{"X-Request-Id":"542ce5ec-b1bf-48b7-8fe6-409506058ff1"}}
+{"level":"INFO","timestamp":"2019-05-01 15:38:09.072","file":"handler/handler.go:40","msg":"The token was invalid.","data":{"X-Request-Id":"b6bd53ea-499a-4c86-842d-3959e08f9651","cause":"illegal base64 data at input byte 16"}}
+{"level":"INFO","timestamp":"2019-05-01 15:39:07.335","file":"mana_service_v2/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-01 15:39:07.336","file":"mana_service_v2/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-01 15:39:09.794","file":"handler/handler.go:40","msg":"The token was invalid.","data":{"X-Request-Id":"f02f2cec-74a1-4b13-a83a-57c3715a9f71","cause":"illegal base64 data at input byte 16"}}

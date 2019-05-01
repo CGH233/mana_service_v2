@@ -17,7 +17,7 @@ func Update(c *gin.Context) {
 	log.Info("Banner Config Update function called.", lager.Data{"X-Request-Id": util.GetReqID(c)})
 	var r model.BannerConfig
 	if err := c.Bind(&r); err != nil {
-		SendResponse(c, errno.ErrBind, nil)
+		SendBadRequest(c, errno.ErrBind, nil, err.Error())
 		return
 	}
 

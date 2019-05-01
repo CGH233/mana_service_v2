@@ -26,11 +26,6 @@ func (u *BannerConfig) Update() error {
 	// Update a document
 	filter := bson.D{}
 
-	// val, err := bson.Marshal(&u)
-	// if err != nil {
-	// 	return err
-	// }
-
 	update := bson.D{
 		{"$set", u},
 	}
