@@ -1,6 +1,7 @@
 package config
 
 import (
+	"encoding/json"
 	"net/http"
 	"os"
 	"testing"
@@ -91,34 +92,51 @@ func TestMain(m *testing.M) {
 // 	}
 // }
 
+func TestUpdate(t *testing.T) {
+	g := getRouter(true)
+	uri := "/api/ios/config"
+	u := UpdateRequest{
+		Config: model.IOSConfig{
+			CalendarURL:              "foobar",
+			FlashScreenURL:           "foobar",     // 闪屏
+			ShowGuisheng:             "false",      // 历史兼容
+			StartCountDayPreset:      "2019-01-01", // 历史兼容
+			StartCountDayPresetForV2: "2019-01-01", // 学期开始日
+			UpdateInfo:               "yo",         // 更新说明
+			Version:                  "2.0",        // 当前最新版本
+			ShouldPullCourse:         false,        // 自动更新课程开关
+			FlashStartDay:            "2019-01-01", // 闪屏显示开始日期
+			FlashEndDay:              "2019-01-02", // 闪屏显示结束日期
+			GradeJSUrl:               "",           // 历史兼容
+			TableJSUrl:               "",           // 历史兼容
+			Rax: []model.RaxConfigItem{{
+				Key:     "com.muxistudio.ccnubox.main",
+				Version: "1.0.0",
+				URL:     "https://foo.bar",
+			}},
+		},
+	}
+	jsonByte, err := json.Marshal(u)
+	if err != nil {
+		t.Errorf("Test Error: %s", err.Error())
+	}
+	w := util.PerformRequestWithBody(http.MethodPut, g, uri, jsonByte, true)
+	result := w.Result()
+	if result.StatusCode != http.StatusOK {
+		t.Errorf("Test Error: StatusCode Error:%d", result.StatusCode)
+	}
+}
+
 func TestGet(t *testing.T) {
 	g := getRouter(true)
 	uri := "/api/ios/config"
-	w := util.PerformRequest(http.MethodGet, g, uri, "")
+	w := util.PerformRequest(http.MethodGet, g, uri, false)
 	result := w.Result()
 
 	if result.StatusCode != http.StatusOK {
 		t.Errorf("Test Error: StatusCode Error:%d", result.StatusCode)
 	}
 }
-
-// func TestUpdate(t *testing.T) {
-// 	g := getRouter(true)
-// 	uri := "/v1/user/" + strconv.FormatInt(int64(uid), 10)
-// 	u := CreateRequest{
-// 		Username: "test" + username,
-// 		Password: "test" + password,
-// 	}
-// 	jsonByte, err := json.Marshal(u)
-// 	if err != nil {
-// 		t.Errorf("Test Error: %s", err.Error())
-// 	}
-// 	w := util.PerformRequestWithBody(http.MethodPut, g, uri, jsonByte, tokenString)
-// 	result := w.Result()
-// 	if result.StatusCode != http.StatusOK {
-// 		t.Errorf("Test Error: StatusCode Error:%d", result.StatusCode)
-// 	}
-// }
 
 // func TestList(t *testing.T) {
 // 	g := getRouter(true)
@@ -175,6 +193,7 @@ func loadRouters(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 
 	{
 		u.GET("/ios/config", Get)
+		u.PUT("/ios/config", Update)
 	}
 
 	return g
