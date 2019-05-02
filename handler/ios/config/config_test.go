@@ -15,12 +15,10 @@ import (
 )
 
 var (
-	g           *gin.Engine
-	tokenString string
-	username    string
-	password    string
-	uid         uint64
+	g *gin.Engine
 )
+
+var router = getRouter(true)
 
 func TestMain(m *testing.M) {
 
@@ -35,65 +33,9 @@ func TestMain(m *testing.M) {
 	os.Exit(m.Run())
 }
 
-// func TestLogin(t *testing.T) {
-// 	g := getRouter(true)
-
-// 	uri := "/login"
-// 	u := CreateRequest{
-// 		Username: "admin",
-// 		Password: "admin",
-// 	}
-// 	jsonByte, err := json.Marshal(u)
-// 	if err != nil {
-// 		t.Errorf("Test Error: %s", err.Error())
-// 	}
-// 	w := util.PerformRequestWithBody(http.MethodPost, g, uri, jsonByte, "")
-
-// 	// 读取响应body,获取tokenString
-// 	var data LoginResponse
-
-// 	if err := json.Unmarshal([]byte(w.Body.String()), &data); err != nil {
-// 		t.Errorf("Test error: Get LoginResponse Error:%s", err.Error())
-// 	}
-// 	tokenString = data.Data.Token
-
-// 	if w.Code != http.StatusOK {
-// 		t.Errorf("Test Error: StatusCode Error:%d", w.Code)
-// 	}
-// }
-
-// func TestCreate(t *testing.T) {
-// 	g := getRouter(true)
-// 	uri := "/v1/user"
-
-// 	username = strconv.FormatInt(time.Now().Unix(), 10)
-// 	password = strconv.FormatInt(time.Now().Unix(), 10)
-
-// 	u := CreateRequest{
-// 		Username: username,
-// 		Password: password,
-// 	}
-// 	jsonByte, err := json.Marshal(u)
-// 	if err != nil {
-// 		t.Errorf("Test Error: %s", err.Error())
-// 	}
-// 	w := util.PerformRequestWithBody(http.MethodPost, g, uri, jsonByte, tokenString)
-// 	result := w.Result()
-
-// 	// GetUid
-// 	user, err := model.GetUser(username)
-// 	if err != nil {
-// 		t.Errorf("Test Error: %s", err.Error())
-// 	}
-// 	uid = user.Id
-
-// 	if result.StatusCode != http.StatusOK {
-// 		t.Errorf("Test Error: StatusCode Error:%d", result.StatusCode)
-// 	}
-// }
-
+// 首先插入一条记录，顺便测试 Update 接口
 func TestUpdate(t *testing.T) {
-	g := getRouter(true)
+	g := router
 	uri := "/api/ios/config"
 	u := UpdateRequest{
 		Config: model.IOSConfig{
@@ -127,8 +69,9 @@ func TestUpdate(t *testing.T) {
 	}
 }
 
+// 测试获取 Config
 func TestGet(t *testing.T) {
-	g := getRouter(true)
+	g := router
 	uri := "/api/ios/config"
 	w := util.PerformRequest(http.MethodGet, g, uri, false)
 	result := w.Result()
@@ -136,29 +79,37 @@ func TestGet(t *testing.T) {
 	if result.StatusCode != http.StatusOK {
 		t.Errorf("Test Error: StatusCode Error:%d", result.StatusCode)
 	}
+
+	// 读取响应 body 并解析
+	var resp model.IOSConfig
+
+	if err := json.Unmarshal([]byte(w.Body.String()), &resp); err != nil {
+		t.Errorf("Test error: Prase Response Error:%s", err.Error())
+	}
 }
 
-// func TestList(t *testing.T) {
-// 	g := getRouter(true)
-// 	uri := "/v1/user"
-// 	w := util.PerformRequest(http.MethodGet, g, uri, tokenString)
-// 	result := w.Result()
+// 测试 Redis 缓存失效，fallback 到 DB
+func TestGetFallBack(t *testing.T) {
+	g := router
+	err := model.GetRedis().Del("iosConfig").Err()
+	if err != nil {
+		t.Errorf("Test Error: %s", err.Error())
+	}
+	uri := "/api/ios/config"
+	w := util.PerformRequest(http.MethodGet, g, uri, false)
+	result := w.Result()
 
-// 	if result.StatusCode != http.StatusOK {
-// 		t.Errorf("Test Error: StatusCode Error:%d", result.StatusCode)
-// 	}
-// }
+	if result.StatusCode != http.StatusOK {
+		t.Errorf("Test Error: StatusCode Error:%d", result.StatusCode)
+	}
 
-// func TestDelete(t *testing.T) {
-// 	g := getRouter(true)
-// 	uri := "/v1/user/" + strconv.FormatInt(int64(uid), 10)
-// 	w := util.PerformRequest(http.MethodDelete, g, uri, tokenString)
-// 	result := w.Result()
+	// 读取响应 body 并解析
+	var resp model.IOSConfig
 
-// 	if result.StatusCode != http.StatusOK {
-// 		t.Errorf("Test Error: StatusCode Error:%d", result.StatusCode)
-// 	}
-// }
+	if err := json.Unmarshal([]byte(w.Body.String()), &resp); err != nil {
+		t.Errorf("Test error: Prase Response Error:%s", err.Error())
+	}
+}
 
 // Helper function to create a router during testing
 func getRouter(withRouter bool) *gin.Engine {
@@ -167,9 +118,6 @@ func getRouter(withRouter bool) *gin.Engine {
 		loadRouters(
 			// Cores.
 			g,
-
-			// Middlwares.
-			middleware.Logging(),
 			middleware.RequestId(),
 		)
 	}
