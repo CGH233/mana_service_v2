@@ -1,5 +1,7 @@
 ## Mana Service 
 
+[![Build Status](https://travis-ci.org/asynccnu/mana_service_v2.svg?branch=master)](https://travis-ci.org/asynccnu/mana_service_v2)
+
 匣子管理 && 元信息 && 部门信息 && 常用网站 服务
 
 ### 开发
