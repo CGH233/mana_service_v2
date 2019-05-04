@@ -16,7 +16,6 @@ type MessageItem struct {
 	Detail  string `json:"detail" bson:"detail"`                // 任意的字符串，比如在 kind 是 link 的时候，detail 就是点击消息跳转的 URL
 	Time    string `json:"time" bson:"time"`                    // 时间 如 2018-04-27
 	Version string `json:"version" bson:"version"`              // 版本号
-	Kind    string `json:"kind" bson:"kind"`                    // 类别，如 text/link
 }
 
 // func (u *MessageItem) Create() error {

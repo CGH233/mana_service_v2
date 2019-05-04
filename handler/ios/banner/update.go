@@ -40,6 +40,8 @@ func Update(c *gin.Context) {
 		return
 	}
 
+	util.SendNotification("iOS Banner 已更新")
+
 	rsp := UpdateResponse{}
 
 	SendResponse(c, nil, rsp)
